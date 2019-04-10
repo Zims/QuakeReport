@@ -78,6 +78,8 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         // Display the magnitude of the current earthquake in that TextView
         magnitudeView.setText(formattedMagnitude);
 
+
+
         // Set the proper background color on the magnitude circle.
         // Fetch the background from the TextView, which is a GradientDrawable.
         GradientDrawable magnitudeCircle = (GradientDrawable) magnitudeView.getBackground();
